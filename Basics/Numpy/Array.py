@@ -37,4 +37,15 @@ print(arr6.size) #Checks size of array
 
 
 #Basic Operations
+print("--------------------BASIC OPERATIONS------------------")
 print(arr6[0,1])
+print(arr6[1,1]) #basic array accessing
+
+print("--------------------Splicing OPERATIONS------------------")
+print(arr3[0:,2]) #First arg shows the starting row and 2nd arg shows the index of row that needs to be printed
+print(arr3[1:,2]) #Splicing 
+
+print("--------------------Max & Min & Sum OPERATIONS------------------")
+print(arr3.max())
+print(arr3.min())
+print(arr3.sum())
