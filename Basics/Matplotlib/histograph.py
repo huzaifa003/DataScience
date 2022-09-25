@@ -1,21 +1,17 @@
 import matplotlib.pyplot as plt
 from matplotlib import style;
-
+import numpy as np
 #Styling
 print(style.available)
-style.use('bmh')
 style.use('dark_background')
 
 #Coordinates
-x1 = [2,3,4]
-y1 = [5,6,7]
+numbers = np.random.randint(185, size=20)
+jump = np.sort(np.random.randint(100,size=8)) #Jump should be increasing
 
-x2 = [6,7,8]
-y2 = [7,10,12]
-
+print(numbers)
 #Plotting of Coordinates
-plt.bar(x1,y1)
-plt.bar(x2,y2)
+plt.hist(numbers,jump,histtype='bar')
 
 #Lables and titles 
 plt.title('testing')
