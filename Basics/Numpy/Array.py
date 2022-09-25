@@ -67,3 +67,7 @@ print("--------------------SQR Root, AVG And STD Deviation OPERATIONS-----------
 print(np.sqrt(arr3))
 print(np.average(arr3))
 print(np.std(arr3))
+
+print("--------------------Exponential & Log OPERATIONS------------------")
+print(np.exp(arr3))
+print(np.log(arr3))
