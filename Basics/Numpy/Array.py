@@ -49,3 +49,21 @@ print("--------------------Max & Min & Sum OPERATIONS------------------")
 print(arr3.max())
 print(arr3.min())
 print(arr3.sum())
+
+print("--------------------Arithmetic OPERATIONS------------------")
+
+print(arr1/arr2)
+print(arr1*arr2)
+
+print("--------------------------------------")
+print("--------------------Advanced OPERATIONS------------------")
+print(arr3.ravel()) #Single Column
+
+print("--------------------Axis OPERATIONS------------------")
+print(arr3.sum(axis=1)) #Added second row of all rows
+print(arr3.sum(axis=0)) #Added first row of all rows
+
+print("--------------------SQR Root, AVG And STD Deviation OPERATIONS------------------")
+print(np.sqrt(arr3))
+print(np.average(arr3))
+print(np.std(arr3))
